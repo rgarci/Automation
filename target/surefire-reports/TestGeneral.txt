@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestGeneral
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.342 sec <<< FAILURE! - in TestGeneral
+googleStaticTest  Time elapsed: 7.929 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: input[value = 'Google Search'] (tried for 3 second(s) with 500 milliseconds interval)
+

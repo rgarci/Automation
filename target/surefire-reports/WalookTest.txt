@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: WalookTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.262 sec <<< FAILURE! - in WalookTest
+walookTest  Time elapsed: 7.26 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "a"
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ThinkPad', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-127-generic', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+
