@@ -1,4 +1,5 @@
-Pages/WalookPage.class
-CambioMoneda/ResultadoPage.class
-Pages/GooglePage.class
-CambioMoneda/CambioMonedaPage.class
+cambioMoneda/ResultadoPage.class
+pages/WalookPage.class
+cambioMoneda/CambioMonedaPage.class
+pages/GooglePage.class
+utilities/Snapshots.class

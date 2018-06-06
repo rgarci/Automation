@@ -1,4 +1,5 @@
-/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/Pages/WalookPage.java
-/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/CambioMoneda/ResultadoPage.java
-/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/Pages/GooglePage.java
-/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/CambioMoneda/CambioMonedaPage.java
+/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/Utilities/Snapshots.java
+/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/pages/WalookPage.java
+/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/pages/GooglePage.java
+/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/cambioMoneda/ResultadoPage.java
+/home/rosaura/Documentos/IntroduccionSelenium/src/main/java/cambioMoneda/CambioMonedaPage.java

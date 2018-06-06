@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: SnapshotTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.658 sec <<< FAILURE! - in SnapshotTest
+pruebaSnapshot  Time elapsed: 5.653 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: java.lang.Exception
+

@@ -1,4 +1,4 @@
-package Pages;
+package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -38,6 +38,11 @@ public class GooglePage {
     public void selectIndex(int index){
         String selector = "#rso > div:nth-child(1) > div > div:nth-child(" + index + ") > div > div > h3 > a";
         pageLink = new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(By.cssSelector(selector)));
+        pageLink.click();
+    }
+
+    public void selectByTest(String partialText){
+        pageLink = driver.findElement(By.partialLinkText(partialText));
         pageLink.click();
     }
 }

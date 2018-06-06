@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: CambioMonedaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.285 sec <<< FAILURE! - in CambioMonedaTest
+googleTest  Time elapsed: 6.282 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: El resultado no es correcto ==> expected: <149.70> but was: <147.05>
+	at CambioMonedaTest.googleTest(CambioMonedaTest.java:23)
+

@@ -1,23 +1,17 @@
-import CambioMoneda.CambioMonedaPage;
-import CambioMoneda.ResultadoPage;
-import Pages.GooglePage;
+
+import cambioMoneda.CambioMonedaPage;
+import cambioMoneda.ResultadoPage;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class GoogleTest extends BaseTest{
+public class CambioMonedaTest extends BaseTest{
 
     @Test
     void googleTest(){
         try {
-            baseUrl = "https://www.google.com.mx/";
+            baseUrl = "https://es.coinmill.com/";
             driver.get(baseUrl);
-            GooglePage googlePage = new GooglePage(driver);
-            googlePage.search("cambio moneda");
-
-            googlePage.selectIndex(3);
-
-            Thread.sleep(5000);
 
             CambioMonedaPage cambioMonedaPage = new CambioMonedaPage(driver);
             cambioMonedaPage.convertirPesoEuro(3500);
@@ -26,7 +20,7 @@ public class GoogleTest extends BaseTest{
 
             ResultadoPage resultadoPage = new ResultadoPage(driver);
 
-            assertEquals("149.15", resultadoPage.getResult(), "El resultado no es correcto");
+            assertEquals("149.70", resultadoPage.getResult(), "El resultado no es correcto");
 
         }catch (Exception e){
             e.printStackTrace();
