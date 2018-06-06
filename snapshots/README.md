@@ -1,0 +1,1 @@
+En este directorio se guardarán las capturas de pantalla con los errores producidos por las excepciones
