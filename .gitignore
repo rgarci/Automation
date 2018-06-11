@@ -28,6 +28,7 @@ release.properties
 *.iws
 out/
 .idea_modules/
+snapshots/*.png
 
 ##########################
 ## Eclipse
