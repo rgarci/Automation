@@ -30,7 +30,7 @@ public class MultipleTest extends BaseTest{
 
     //@Disabled
     @Test
-    @DisplayName("Google click in test")
+    @DisplayName("Google click in text")
     void googleInOtherTest(){
         try{
 
@@ -41,7 +41,7 @@ public class MultipleTest extends BaseTest{
 
             Thread.sleep(1000);
 
-            googlePage.selectByTest("What is Automation");
+            googlePage.selectByText("What is Automation");
 
         }catch (Exception e){
             errors.append(e);
@@ -65,7 +65,7 @@ public class MultipleTest extends BaseTest{
         }
     }
 
-    //@Disabled
+    @Disabled
     @Test
     @DisplayName("go to Walook test")
     void walookInTest(){
@@ -73,7 +73,6 @@ public class MultipleTest extends BaseTest{
 
             baseUrl = "http://www.walook.com.mx/";
             driver.get(baseUrl);
-
             WalookPage walookPage = new WalookPage(driver);
             walookPage.goToContacto();
 

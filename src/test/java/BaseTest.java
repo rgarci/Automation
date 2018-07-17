@@ -30,7 +30,7 @@ public class BaseTest {
 
     @AfterEach
     public  void afterTest(){
-        driver.close();
+        driver.quit();
         String verificationErrorString = errors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);

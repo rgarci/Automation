@@ -36,12 +36,12 @@ public class GooglePage {
     private WebElement pageLink;
 
     public void selectIndex(int index){
-        String selector = "#rso > div:nth-child(1) > div > div:nth-child(" + index + ") > div > div > h3 > a";
+        String selector = "#rso > div:nth-child(2) > div > div:nth-child(" + index + ") > div > div > h3 > a";
         pageLink = new WebDriverWait(driver, 3).until(ExpectedConditions.elementToBeClickable(By.cssSelector(selector)));
         pageLink.click();
     }
 
-    public void selectByTest(String partialText){
+    public void selectByText(String partialText){
         pageLink = driver.findElement(By.partialLinkText(partialText));
         pageLink.click();
     }

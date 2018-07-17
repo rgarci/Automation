@@ -15,7 +15,7 @@ public class SnapshotTest extends BaseTest{
 
         try{
             Snapshots.deletePreviousSS(testName);
-            baseUrl = "http://www.walook.com.mx/";
+            baseUrl = "https://www.seleniumhq.org/";
             driver.get(baseUrl);
 
              throw new Exception();

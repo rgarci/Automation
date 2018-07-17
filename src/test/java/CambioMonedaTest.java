@@ -20,7 +20,7 @@ public class CambioMonedaTest extends BaseTest{
 
             ResultadoPage resultadoPage = new ResultadoPage(driver);
 
-            assertEquals("149.70", resultadoPage.getResult(), "El resultado no es correcto");
+            assertEquals("158.63", resultadoPage.getResult(), "El resultado no es correcto");
 
         }catch (Exception e){
             e.printStackTrace();
